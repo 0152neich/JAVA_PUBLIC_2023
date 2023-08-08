@@ -1,5 +1,5 @@
 package BTVN_BUOI2;
-
+//a
 import java.util.Scanner;
 
 public class Bai4 {

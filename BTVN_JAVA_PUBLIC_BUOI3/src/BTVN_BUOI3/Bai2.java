@@ -55,12 +55,12 @@ public class Bai2 {
 			System.out.print(newa[i] + " ");
 		}
 		System.out.println();
-		int d;
+		int m;
 		do {
 			System.out.print("Nhap vi tri can xoa phan tu: ");
-			d = sc.nextInt();
-		} while (d < 0 || d >= n);
-		int[] newarr = Bai2.xoa(a, d);
+			m = sc.nextInt();
+		} while (m < 0 || m >= n);
+		int[] newarr = Bai2.xoa(a, m);
 		System.out.print("Mang sau khi xoa phan tu la:");
 		for (int i = 0; i < newarr.length; i++) {
 			System.out.print(newarr[i] + " ");

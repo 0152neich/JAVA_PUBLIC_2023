@@ -16,8 +16,8 @@ public class Bai5 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String name = sc.nextLine();
-		String names = Bai5.chuoi(name);
-		System.out.println(names);
+		String s = sc.nextLine();
+		String s1 = Bai5.chuoi(s);
+		System.out.println(s1);
 	}
 }

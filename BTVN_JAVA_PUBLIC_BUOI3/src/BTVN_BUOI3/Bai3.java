@@ -27,7 +27,7 @@ public class Bai3 {
 			System.out.print("a[" + i + "] = ");
 			a[i] = sc.nextInt();
 		}
-		int[] arr = Bai3.sapxep(a, n);
+		int[] arr = sapxep(a, n);
 		System.out.print("Mang sau khi sap xep la: ");
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");

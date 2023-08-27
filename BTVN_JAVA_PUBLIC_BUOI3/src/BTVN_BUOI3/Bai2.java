@@ -7,11 +7,11 @@ public class Bai2 {
 	static int[] them(int[] a, int b, int c) {
 		int[] newa = new int[a.length + 1];
 		int j = 0;
-		for (int i = 0; i < newa.length; i++) {
+		for (int i = 1; i <= newa.length; i++) {
 			if (i == b) {
-				newa[i] = c;
+				newa[i - 1] = c;
 			} else {
-				newa[i] = a[j];
+				newa[i - 1] = a[j];
 				j++;
 			}
 		}
@@ -21,11 +21,11 @@ public class Bai2 {
 	static int[] xoa(int[] a, int b) {
 		int[] newa = new int[a.length - 1];
 		int j = 0;
-		for (int i = 0; i < a.length; i++) {
+		for (int i = 1; i <= a.length; i++) {
 			if (i == b) {
 				continue;
 			} else {
-				newa[j] = a[i];
+				newa[j] = a[i - 1];
 				j++;
 			}
 		}

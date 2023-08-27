@@ -24,7 +24,7 @@ public class Bai1 {
 			arr[i] = sc.nextInt();
 		}
 		
-		int[] cnt = Bai1.dem(arr, n);
+		int[] cnt = dem(arr, n);
 		for (int i = 0; i < MAX; i++) {
 			if (cnt[i] > 0) {
 				System.out.println("so " + i + " xuat hien " + cnt[i] + " lan");

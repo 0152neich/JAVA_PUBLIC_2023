@@ -3,6 +3,7 @@ package BTVN_BUOI3;
 import java.util.Scanner;
 
 public class Bai1 {
+	
 	static final int MAX = 1000;
 	
 	static int[] dem(int[] a, int n) {

@@ -3,7 +3,6 @@ package BTVN_BUOI3;
 import java.util.Scanner;
 
 public class Bai3 {
-
 	static int[] sapxep(int[] a, int n) {
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {

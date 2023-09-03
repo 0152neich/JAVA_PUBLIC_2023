@@ -3,6 +3,7 @@ package BTVN_BUOI3;
 import java.util.Scanner;
 
 public class Bai4 {
+	
 	static boolean sosanhchuoi(String s) {
 		String s1 = "";
 		for (int i = s.length(); i > 0; i--) {

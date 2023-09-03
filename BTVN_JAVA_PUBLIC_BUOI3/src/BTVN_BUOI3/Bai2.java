@@ -3,7 +3,6 @@ package BTVN_BUOI3;
 import java.util.Scanner;
 
 public class Bai2 {
-
 	static int[] them(int[] a, int b, int c) {
 		int[] newa = new int[a.length + 1];
 		int j = 0;

@@ -1,0 +1,10 @@
+!SESSION Wed Sep 06 19:38:16 ICT 2023 ------------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2023-09-06 19:38:16.769
+!MESSAGE Exception launching the Eclipse Platform:
+!STACK
+java.io.FileNotFoundException: Could not find framework under d:\JAVA_PUBLIC_2023\baiKiemTra_Java\src\Bai2\plugins
+	at org.eclipse.equinox.launcher.Main.getBootPath(Main.java:979)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+

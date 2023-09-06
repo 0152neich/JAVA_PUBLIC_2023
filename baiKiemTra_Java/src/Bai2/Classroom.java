@@ -61,18 +61,18 @@ public class Classroom {
 	public void output() {
 		System.out.println("Ma lop: " + this.classId);
 		System.out.println("So sv: " + this.numberOfStudent);
-		for( Student student : listStudent) {
+		for (Student student : listStudent) {
 			student.output();
 		}
 	}
 	
-//	public ArrayList<Student> searchByName(String name){
-//		ArrayList<Student> newList = new ArrayList<>();
-//		for (Student student : listStudent) {
-//			if (student.name == name) {
-//				newList.add(student);
-//			}
-//		}
-//		return null;
-//	}
+	public ArrayList<Student> searchByName(String name){
+		ArrayList<Student> newList = new ArrayList<>();
+		for (Student student : listStudent) {
+			if (student.getName().equals(name)) {
+				newList.add(student);
+			}
+		}
+		return null;
+	}
 }
